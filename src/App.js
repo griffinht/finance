@@ -28,9 +28,10 @@ function App() {
   const [currentSavings, setCurrentSavings] = useState('');
   const [currentAge, setCurrentAge] = useState('0');
   const [targetAge, setTargetAge] = useState('60');
-  const [targetAmount, setTargetAmount] = useState('1000000');
+//setTargetAmount
+  const [targetAmount] = useState('1000000');
   const [annualReturn, setAnnualReturn] = useState(7);
-  const [showAdvanced, setShowAdvanced] = useState(false);
+  //const [showAdvanced, setShowAdvanced] = useState(false);
   const [projections, setProjections] = useState(null);
   const [chartData, setChartData] = useState(null);
 
