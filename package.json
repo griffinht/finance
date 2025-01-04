@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && wrangler pages deploy",
+    "deploy": "echo hey no need to do this - cf pages will auto deploy on push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
